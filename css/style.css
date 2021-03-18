@@ -28,10 +28,16 @@ footer {
     padding: 0;
 }
 
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 body {
+    position: relative;
     height: 1200px;
     background-color: white;
-    position: relative;
 }
 
 body>div {
@@ -40,13 +46,6 @@ body>div {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 900px;
-    height: 1150px;
-}
-
-div.bottom::after {
-    clear: both;
-    content: "";
-    display: table;
 }
 
 /* header page */
@@ -64,23 +63,23 @@ section:first-of-type {
 section:last-of-type {
     height: 470px;
 }
+
 div.top {
     height: 70px;
     margin-bottom: 20px;
 }
+
 div.bottom>div {
     float: left;
     height: 360px;
 }
-div.left {
+div.left,
+div.right {
     width: 200px;
 }
 div.center {
     width: 470px;
     margin: auto 15px;
-}
-div.right {
-    width: 200px;
 }
 
 /* footer page */
