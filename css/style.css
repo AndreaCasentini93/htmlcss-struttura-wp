@@ -1,6 +1,47 @@
+/* debug */
+header {
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: #E579E6;
+}
+
+section:first-of-type {
+    height: 460px;
+    margin-bottom: 20px;
+    background-color: #E1D67A;
+}
+
+section:last-of-type {
+    height: 470px;
+    background-color: red;
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+    background-color: #8801FE;
+}
+
+/* /debug */
+
 /* common */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 1200px;
+    background-color: white;
+    position: relative;
+}
+
+body>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 1150px;
 }
