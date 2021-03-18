@@ -35,16 +35,12 @@ footer {
 }
 
 body {
-    position: relative;
     background-color: white;
 }
 
 #container {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%, -0%);
-    width: 900px;
+    margin: 20px auto;
+    width: 70%;
 }
 
 /* header page */
@@ -74,15 +70,15 @@ section:last-of-type {
 }
 #box_left,
 #box_right {
-    width: 200px;
+    width: 260px;
 }
 #box_center {
-    width: 470px;
+    width: 513px;
     margin: auto 15px;
 }
 
 /* footer page */
 footer {
     height: 50px;
-    margin: 10px auto 20px auto;
+    margin-top: 10px;
 }
