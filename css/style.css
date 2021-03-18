@@ -36,15 +36,14 @@ footer {
 
 body {
     position: relative;
-    height: 1200px;
     background-color: white;
 }
 
 body>div {
     position: absolute;
-    top: 50%;
+    top: 20px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -0%);
     width: 900px;
 }
 
@@ -85,5 +84,5 @@ div.center {
 /* footer page */
 footer {
     height: 50px;
-    margin-top: 10px;
+    margin: 10px auto 20px auto;
 }
