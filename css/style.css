@@ -11,8 +11,8 @@ section:last-of-type {
     background-color: #0689F8;
 }
 
-div.top,
-div.bottom>div {
+#box_top,
+#box_bottom>[id^="box"] {
     background-color: #ABCFE7;
 }
 
@@ -39,7 +39,7 @@ body {
     background-color: white;
 }
 
-body>div {
+#container {
     position: absolute;
     top: 20px;
     left: 50%;
@@ -63,20 +63,20 @@ section:last-of-type {
     height: 470px;
 }
 
-div.top {
+#box_top {
     height: 70px;
     margin-bottom: 20px;
 }
 
-div.bottom>div {
+#box_bottom>[id^="box"] {
     float: left;
     height: 360px;
 }
-div.left,
-div.right {
+#box_left,
+#box_right {
     width: 200px;
 }
-div.center {
+#box_center {
     width: 470px;
     margin: auto 15px;
 }
